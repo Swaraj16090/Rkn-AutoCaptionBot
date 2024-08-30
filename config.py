@@ -11,7 +11,7 @@ class Rkn_Bots(object):
     
     # Rkn client config  ( required.. 😥)
     API_ID = os.environ.get("API_ID", "26558850")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "410f922c49c8867b5c8e28d624581b02")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # start_pic
