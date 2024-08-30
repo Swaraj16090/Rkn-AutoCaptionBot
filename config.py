@@ -10,7 +10,7 @@ id_pattern = re.compile(r'^.\d+$')
 class Rkn_Bots(object):
     
     # Rkn client config  ( required.. 😥)
-    API_ID = os.environ.get("API_ID", "")
+    API_ID = os.environ.get("API_ID", "26558850")
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
