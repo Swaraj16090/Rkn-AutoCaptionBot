@@ -25,8 +25,8 @@ class Rkn_Bots(object):
     FORCE_SUB = os.environ.get("FORCE_SUB", "Rkn_Botz") 
     
     # database config ( required.. 😥)
-    DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")     
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "filebot")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://filebot:filebot@cluster0.lrxvyve.mongodb.net/?retryWrites=true&w=majority")
 
     # default caption 
     DEF_CAP = os.environ.get("DEF_CAP", "<b><a href='https//:t.me/Rkn_Botz'>{file_name} Main Telegram Channel: @RknDeveloper</a></b>",
